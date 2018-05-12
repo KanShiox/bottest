@@ -1,0 +1,10 @@
+{
+  "name": "bottest",
+  "main": "index.js",
+  "scripts":{
+    "test": "echo \"Error : no test specified\" && exit1 "
+  },
+  "dependencies": {
+    "discord.js": "^11.2.1"
+  }
+}
