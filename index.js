@@ -96,7 +96,7 @@ Client.on('message', (message) => {
 });
 
 Client.on("guildMemberAdd", (member) => {
-  	member.message.channel.send('Bienvenue sur le Refuge' + member.id + '!');
+
 });
 
 Client.login(config.token)
