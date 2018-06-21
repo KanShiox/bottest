@@ -40,9 +40,6 @@ Client.on('message', (message) => {
 		}
 
 		else if(command === "say"){
-			if(message.author.id !== config.ownerID){
-				if(message.author.id !== 192263384060657664){ return;
-
 			let text = args.join(" ");
 			message.delete();
 			message.channel.send({embed: {color: 3447003,description: text}});
